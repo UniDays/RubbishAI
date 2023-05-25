@@ -1,0 +1,10 @@
+{
+    "type": "entity",
+    "description": {
+        "identifier": "item_entity",
+        "type_id": 1
+    },
+    "components": {
+        "physics": {}
+    }
+}

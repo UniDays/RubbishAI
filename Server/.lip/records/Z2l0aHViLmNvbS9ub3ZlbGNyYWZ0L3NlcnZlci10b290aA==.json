@@ -1,0 +1,407 @@
+{
+  "commands": [],
+  "confirmation": [],
+  "dependencies": {},
+  "information": {
+    "author": "NovelCraft",
+    "description": "NovelCraft Servers allow players to play online or via a local area network with other people.",
+    "homepage": "https://novelcraft.games",
+    "license": "LGPL-3.0",
+    "name": "NovelCraft Server"
+  },
+  "is_manually_installed": true,
+  "placement": [
+    {
+      "destination": "config.json",
+      "source": "common/config.json"
+    },
+    {
+      "destination": "definitions/blocks/air.json",
+      "source": "common/definitions/blocks/air.json"
+    },
+    {
+      "destination": "definitions/blocks/barrier.json",
+      "source": "common/definitions/blocks/barrier.json"
+    },
+    {
+      "destination": "definitions/blocks/bedrock.json",
+      "source": "common/definitions/blocks/bedrock.json"
+    },
+    {
+      "destination": "definitions/blocks/coal_ore.json",
+      "source": "common/definitions/blocks/coal_ore.json"
+    },
+    {
+      "destination": "definitions/blocks/cobblestone.json",
+      "source": "common/definitions/blocks/cobblestone.json"
+    },
+    {
+      "destination": "definitions/blocks/diamond_ore.json",
+      "source": "common/definitions/blocks/diamond_ore.json"
+    },
+    {
+      "destination": "definitions/blocks/dirt.json",
+      "source": "common/definitions/blocks/dirt.json"
+    },
+    {
+      "destination": "definitions/blocks/gold_ore.json",
+      "source": "common/definitions/blocks/gold_ore.json"
+    },
+    {
+      "destination": "definitions/blocks/grass.json",
+      "source": "common/definitions/blocks/grass.json"
+    },
+    {
+      "destination": "definitions/blocks/iron_ore.json",
+      "source": "common/definitions/blocks/iron_ore.json"
+    },
+    {
+      "destination": "definitions/blocks/leaves.json",
+      "source": "common/definitions/blocks/leaves.json"
+    },
+    {
+      "destination": "definitions/blocks/log.json",
+      "source": "common/definitions/blocks/log.json"
+    },
+    {
+      "destination": "definitions/blocks/planks.json",
+      "source": "common/definitions/blocks/planks.json"
+    },
+    {
+      "destination": "definitions/blocks/sapling.json",
+      "source": "common/definitions/blocks/sapling.json"
+    },
+    {
+      "destination": "definitions/blocks/stone.json",
+      "source": "common/definitions/blocks/stone.json"
+    },
+    {
+      "destination": "definitions/blocks/unknown.json",
+      "source": "common/definitions/blocks/unknown.json"
+    },
+    {
+      "destination": "definitions/entities/item_entity.json",
+      "source": "common/definitions/entities/item_entity.json"
+    },
+    {
+      "destination": "definitions/entities/player.json",
+      "source": "common/definitions/entities/player.json"
+    },
+    {
+      "destination": "definitions/entities/zombie.json",
+      "source": "common/definitions/entities/zombie.json"
+    },
+    {
+      "destination": "definitions/items/apple.json",
+      "source": "common/definitions/items/apple.json"
+    },
+    {
+      "destination": "definitions/items/bedrock.json",
+      "source": "common/definitions/items/bedrock.json"
+    },
+    {
+      "destination": "definitions/items/cobblestone.json",
+      "source": "common/definitions/items/cobblestone.json"
+    },
+    {
+      "destination": "definitions/items/dirt.json",
+      "source": "common/definitions/items/dirt.json"
+    },
+    {
+      "destination": "definitions/items/grass.json",
+      "source": "common/definitions/items/grass.json"
+    },
+    {
+      "destination": "definitions/items/log.json",
+      "source": "common/definitions/items/log.json"
+    },
+    {
+      "destination": "definitions/items/planks.json",
+      "source": "common/definitions/items/planks.json"
+    },
+    {
+      "destination": "definitions/items/stick.json",
+      "source": "common/definitions/items/stick.json"
+    },
+    {
+      "destination": "definitions/items/stone.json",
+      "source": "common/definitions/items/stone.json"
+    },
+    {
+      "destination": "definitions/items/stone_axe.json",
+      "source": "common/definitions/items/stone_axe.json"
+    },
+    {
+      "destination": "definitions/items/stone_pickaxe.json",
+      "source": "common/definitions/items/stone_pickaxe.json"
+    },
+    {
+      "destination": "definitions/items/stone_shovel.json",
+      "source": "common/definitions/items/stone_shovel.json"
+    },
+    {
+      "destination": "definitions/items/stone_sword.json",
+      "source": "common/definitions/items/stone_sword.json"
+    },
+    {
+      "destination": "definitions/items/wooden_axe.json",
+      "source": "common/definitions/items/wooden_axe.json"
+    },
+    {
+      "destination": "definitions/items/wooden_pickaxe.json",
+      "source": "common/definitions/items/wooden_pickaxe.json"
+    },
+    {
+      "destination": "definitions/items/wooden_shovel.json",
+      "source": "common/definitions/items/wooden_shovel.json"
+    },
+    {
+      "destination": "definitions/items/wooden_sword.json",
+      "source": "common/definitions/items/wooden_sword.json"
+    },
+    {
+      "destination": "definitions/loot_tables/cobblestone.json",
+      "source": "common/definitions/loot_tables/cobblestone.json"
+    },
+    {
+      "destination": "definitions/loot_tables/dirt.json",
+      "source": "common/definitions/loot_tables/dirt.json"
+    },
+    {
+      "destination": "definitions/loot_tables/grass.json",
+      "source": "common/definitions/loot_tables/grass.json"
+    },
+    {
+      "destination": "definitions/loot_tables/log.json",
+      "source": "common/definitions/loot_tables/log.json"
+    },
+    {
+      "destination": "definitions/loot_tables/planks.json",
+      "source": "common/definitions/loot_tables/planks.json"
+    },
+    {
+      "destination": "definitions/loot_tables/stone.json",
+      "source": "common/definitions/loot_tables/stone.json"
+    },
+    {
+      "destination": "definitions/recipes/diamond_axe_1.json",
+      "source": "common/definitions/recipes/diamond_axe_1.json"
+    },
+    {
+      "destination": "definitions/recipes/diamond_axe_2.json",
+      "source": "common/definitions/recipes/diamond_axe_2.json"
+    },
+    {
+      "destination": "definitions/recipes/diamond_pickaxe.json",
+      "source": "common/definitions/recipes/diamond_pickaxe.json"
+    },
+    {
+      "destination": "definitions/recipes/diamond_shovel.json",
+      "source": "common/definitions/recipes/diamond_shovel.json"
+    },
+    {
+      "destination": "definitions/recipes/diamond_sword.json",
+      "source": "common/definitions/recipes/diamond_sword.json"
+    },
+    {
+      "destination": "definitions/recipes/gold_1.json",
+      "source": "common/definitions/recipes/gold_1.json"
+    },
+    {
+      "destination": "definitions/recipes/golden_axe_1.json",
+      "source": "common/definitions/recipes/golden_axe_1.json"
+    },
+    {
+      "destination": "definitions/recipes/golden_axe_2.json",
+      "source": "common/definitions/recipes/golden_axe_2.json"
+    },
+    {
+      "destination": "definitions/recipes/golden_pickaxe.json",
+      "source": "common/definitions/recipes/golden_pickaxe.json"
+    },
+    {
+      "destination": "definitions/recipes/golden_shovel.json",
+      "source": "common/definitions/recipes/golden_shovel.json"
+    },
+    {
+      "destination": "definitions/recipes/golden_sword.json",
+      "source": "common/definitions/recipes/golden_sword.json"
+    },
+    {
+      "destination": "definitions/recipes/iron_1.json",
+      "source": "common/definitions/recipes/iron_1.json"
+    },
+    {
+      "destination": "definitions/recipes/iron_2.json",
+      "source": "common/definitions/recipes/iron_2.json"
+    },
+    {
+      "destination": "definitions/recipes/iron_3.json",
+      "source": "common/definitions/recipes/iron_3.json"
+    },
+    {
+      "destination": "definitions/recipes/iron_4.json",
+      "source": "common/definitions/recipes/iron_4.json"
+    },
+    {
+      "destination": "definitions/recipes/iron_5.json",
+      "source": "common/definitions/recipes/iron_5.json"
+    },
+    {
+      "destination": "definitions/recipes/iron_6.json",
+      "source": "common/definitions/recipes/iron_6.json"
+    },
+    {
+      "destination": "definitions/recipes/iron_7.json",
+      "source": "common/definitions/recipes/iron_7.json"
+    },
+    {
+      "destination": "definitions/recipes/iron_8.json",
+      "source": "common/definitions/recipes/iron_8.json"
+    },
+    {
+      "destination": "definitions/recipes/iron_axe_1.json",
+      "source": "common/definitions/recipes/iron_axe_1.json"
+    },
+    {
+      "destination": "definitions/recipes/iron_axe_2.json",
+      "source": "common/definitions/recipes/iron_axe_2.json"
+    },
+    {
+      "destination": "definitions/recipes/iron_pickaxe.json",
+      "source": "common/definitions/recipes/iron_pickaxe.json"
+    },
+    {
+      "destination": "definitions/recipes/iron_shovel.json",
+      "source": "common/definitions/recipes/iron_shovel.json"
+    },
+    {
+      "destination": "definitions/recipes/iron_sword.json",
+      "source": "common/definitions/recipes/iron_sword.json"
+    },
+    {
+      "destination": "definitions/recipes/planks_from_log.json",
+      "source": "common/definitions/recipes/planks_from_log.json"
+    },
+    {
+      "destination": "definitions/recipes/stick_from_planks_1.json",
+      "source": "common/definitions/recipes/stick_from_planks_1.json"
+    },
+    {
+      "destination": "definitions/recipes/stick_from_planks_2.json",
+      "source": "common/definitions/recipes/stick_from_planks_2.json"
+    },
+    {
+      "destination": "definitions/recipes/stick_from_planks_3.json",
+      "source": "common/definitions/recipes/stick_from_planks_3.json"
+    },
+    {
+      "destination": "definitions/recipes/stick_from_planks_4.json",
+      "source": "common/definitions/recipes/stick_from_planks_4.json"
+    },
+    {
+      "destination": "definitions/recipes/stick_from_planks_5.json",
+      "source": "common/definitions/recipes/stick_from_planks_5.json"
+    },
+    {
+      "destination": "definitions/recipes/stick_from_planks_6.json",
+      "source": "common/definitions/recipes/stick_from_planks_6.json"
+    },
+    {
+      "destination": "definitions/recipes/stone_axe_1.json",
+      "source": "common/definitions/recipes/stone_axe_1.json"
+    },
+    {
+      "destination": "definitions/recipes/stone_axe_2.json",
+      "source": "common/definitions/recipes/stone_axe_2.json"
+    },
+    {
+      "destination": "definitions/recipes/stone_pickaxe.json",
+      "source": "common/definitions/recipes/stone_pickaxe.json"
+    },
+    {
+      "destination": "definitions/recipes/stone_shovel.json",
+      "source": "common/definitions/recipes/stone_shovel.json"
+    },
+    {
+      "destination": "definitions/recipes/stone_sword.json",
+      "source": "common/definitions/recipes/stone_sword.json"
+    },
+    {
+      "destination": "definitions/recipes/wooden_axe_1.json",
+      "source": "common/definitions/recipes/wooden_axe_1.json"
+    },
+    {
+      "destination": "definitions/recipes/wooden_axe_2.json",
+      "source": "common/definitions/recipes/wooden_axe_2.json"
+    },
+    {
+      "destination": "definitions/recipes/wooden_pickaxe.json",
+      "source": "common/definitions/recipes/wooden_pickaxe.json"
+    },
+    {
+      "destination": "definitions/recipes/wooden_shovel.json",
+      "source": "common/definitions/recipes/wooden_shovel.json"
+    },
+    {
+      "destination": "definitions/recipes/wooden_sword.json",
+      "source": "common/definitions/recipes/wooden_sword.json"
+    },
+    {
+      "destination": "whitelist.json",
+      "source": "common/whitelist.json"
+    },
+    {
+      "destination": "worlds/.server.keep",
+      "source": "common/worlds/.server.keep"
+    },
+    {
+      "destination": "worlds/NovelCraft level.nclevel",
+      "source": "common/worlds/NovelCraft level.nclevel"
+    },
+    {
+      "destination": "Server",
+      "source": "linux-arm/Server"
+    },
+    {
+      "destination": "Server",
+      "source": "linux-arm64/Server"
+    },
+    {
+      "destination": "Server",
+      "source": "linux-x64/Server"
+    },
+    {
+      "destination": "Server",
+      "source": "osx-arm64/Server"
+    },
+    {
+      "destination": "Server",
+      "source": "osx-x64/Server"
+    },
+    {
+      "destination": "Server.exe",
+      "source": "win-arm/Server.exe"
+    },
+    {
+      "destination": "Server.exe",
+      "source": "win-arm64/Server.exe"
+    },
+    {
+      "destination": "Server.exe",
+      "source": "win-x64/Server.exe"
+    },
+    {
+      "destination": "Server.exe",
+      "source": "win-x86/Server.exe"
+    }
+  ],
+  "possession": [],
+  "tool": {
+    "description": "",
+    "entrypoints": [],
+    "name": ""
+  },
+  "tooth": "github.com/novelcraft/server-tooth",
+  "version": "0.3.1"
+}

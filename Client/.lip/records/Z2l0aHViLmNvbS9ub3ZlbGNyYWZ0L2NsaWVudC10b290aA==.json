@@ -1,0 +1,1791 @@
+{
+  "commands": [],
+  "confirmation": [],
+  "dependencies": {},
+  "information": {
+    "author": "NovelCraft",
+    "description": "NovelCraft Client is a software application that allows players to connect to NovelCraft Servers and play the game online.",
+    "homepage": "https://novelcraft.games",
+    "license": "LGPL-3.0",
+    "name": "NovelCraft Client"
+  },
+  "is_manually_installed": true,
+  "placement": [
+    {
+      "destination": "worlds/.client.keep",
+      "source": "common/worlds/.client.keep"
+    },
+    {
+      "destination": "worlds/Playback example.nclevel",
+      "source": "common/worlds/Playback example.nclevel"
+    },
+    {
+      "destination": "Client",
+      "source": "StandaloneLinux64/Client"
+    },
+    {
+      "destination": "Client_Data/Managed/Assembly-CSharp.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/Assembly-CSharp.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Mono.Security.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/Mono.Security.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Newtonsoft.Json.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/Newtonsoft.Json.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.ComponentModel.Composition.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.ComponentModel.Composition.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Configuration.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.Configuration.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Core.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.Core.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Data.DataSetExtensions.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.Data.DataSetExtensions.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Data.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.Data.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Drawing.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.Drawing.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.EnterpriseServices.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.EnterpriseServices.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.IO.Compression.FileSystem.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.IO.Compression.FileSystem.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.IO.Compression.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.IO.Compression.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Net.Http.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.Net.Http.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Numerics.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.Numerics.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Runtime.Serialization.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.Runtime.Serialization.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Security.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.Security.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.ServiceModel.Internals.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.ServiceModel.Internals.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Transactions.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.Transactions.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Xml.Linq.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.Xml.Linq.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Xml.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.Xml.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/System.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Unity.TextMeshPro.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/Unity.TextMeshPro.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Unity.Timeline.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/Unity.Timeline.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Unity.VisualScripting.Core.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/Unity.VisualScripting.Core.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Unity.VisualScripting.Flow.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Unity.VisualScripting.State.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/Unity.VisualScripting.State.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.AIModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.AIModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.AccessibilityModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.AccessibilityModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.AndroidJNIModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.AnimationModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.AnimationModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.AssetBundleModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.AudioModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.AudioModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ClothModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.ClothModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ClusterInputModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.ClusterInputModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.ClusterRendererModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.CoreModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.CoreModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.CrashReportingModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.CrashReportingModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.DSPGraphModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.DSPGraphModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.DirectorModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.DirectorModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.GIModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.GIModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.GameCenterModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.GameCenterModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.GridModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.GridModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.HotReloadModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.HotReloadModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.IMGUIModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.IMGUIModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ImageConversionModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.ImageConversionModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.InputLegacyModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.InputModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.InputModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.JSONSerializeModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.LocalizationModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.LocalizationModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.ParticleSystemModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.Physics2DModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.Physics2DModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.PhysicsModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.PhysicsModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ProfilerModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.ProfilerModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.SharedInternalsModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.SpriteMaskModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.SpriteShapeModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.StreamingModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.StreamingModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.SubstanceModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.SubstanceModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.SubsystemsModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.TLSModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.TLSModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.TerrainModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.TerrainModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.TextRenderingModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.TilemapModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.TilemapModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UI.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UI.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UIElementsModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UIElementsModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UIElementsNativeModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UIModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UIModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UNETModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UNETModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UmbraModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UmbraModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityConnectModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UnityConnectModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityCurlModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UnityCurlModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.VFXModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.VFXModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.VRModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.VRModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.VehiclesModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.VehiclesModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.VideoModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.VideoModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.WindModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.WindModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.XRModule.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.XRModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/UnityEngine.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/mscorlib.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/mscorlib.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/netstandard.dll",
+      "source": "StandaloneLinux64/Client_Data/Managed/netstandard.dll"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/config",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/config"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/2.0/machine.config",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/2.0/machine.config"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/2.0/settings.map",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/2.0/settings.map"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/2.0/web.config",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/2.0/web.config"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/4.0/machine.config",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/4.0/machine.config"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/4.0/settings.map",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/4.0/settings.map"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/4.0/web.config",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/4.0/web.config"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/4.5/machine.config",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/4.5/machine.config"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/4.5/settings.map",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/4.5/settings.map"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/4.5/web.config",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/4.5/web.config"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/browscap.ini",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/browscap.ini"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/config",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/config"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/x86_64/libmono-native.so",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/x86_64/libmono-native.so"
+    },
+    {
+      "destination": "Client_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so",
+      "source": "StandaloneLinux64/Client_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so"
+    },
+    {
+      "destination": "Client_Data/Resources/UnityPlayer.png",
+      "source": "StandaloneLinux64/Client_Data/Resources/UnityPlayer.png"
+    },
+    {
+      "destination": "Client_Data/Resources/unity default resources",
+      "source": "StandaloneLinux64/Client_Data/Resources/unity default resources"
+    },
+    {
+      "destination": "Client_Data/Resources/unity_builtin_extra",
+      "source": "StandaloneLinux64/Client_Data/Resources/unity_builtin_extra"
+    },
+    {
+      "destination": "Client_Data/RuntimeInitializeOnLoads.json",
+      "source": "StandaloneLinux64/Client_Data/RuntimeInitializeOnLoads.json"
+    },
+    {
+      "destination": "Client_Data/ScriptingAssemblies.json",
+      "source": "StandaloneLinux64/Client_Data/ScriptingAssemblies.json"
+    },
+    {
+      "destination": "Client_Data/StreamingAssets/external_servers.json",
+      "source": "StandaloneLinux64/Client_Data/StreamingAssets/external_servers.json"
+    },
+    {
+      "destination": "Client_Data/app.info",
+      "source": "StandaloneLinux64/Client_Data/app.info"
+    },
+    {
+      "destination": "Client_Data/boot.config",
+      "source": "StandaloneLinux64/Client_Data/boot.config"
+    },
+    {
+      "destination": "Client_Data/globalgamemanagers",
+      "source": "StandaloneLinux64/Client_Data/globalgamemanagers"
+    },
+    {
+      "destination": "Client_Data/globalgamemanagers.assets",
+      "source": "StandaloneLinux64/Client_Data/globalgamemanagers.assets"
+    },
+    {
+      "destination": "Client_Data/level0",
+      "source": "StandaloneLinux64/Client_Data/level0"
+    },
+    {
+      "destination": "Client_Data/level0.resS",
+      "source": "StandaloneLinux64/Client_Data/level0.resS"
+    },
+    {
+      "destination": "Client_Data/level1",
+      "source": "StandaloneLinux64/Client_Data/level1"
+    },
+    {
+      "destination": "Client_Data/level1.resS",
+      "source": "StandaloneLinux64/Client_Data/level1.resS"
+    },
+    {
+      "destination": "Client_Data/level2",
+      "source": "StandaloneLinux64/Client_Data/level2"
+    },
+    {
+      "destination": "Client_Data/level2.resS",
+      "source": "StandaloneLinux64/Client_Data/level2.resS"
+    },
+    {
+      "destination": "Client_Data/resources.assets",
+      "source": "StandaloneLinux64/Client_Data/resources.assets"
+    },
+    {
+      "destination": "Client_Data/resources.assets.resS",
+      "source": "StandaloneLinux64/Client_Data/resources.assets.resS"
+    },
+    {
+      "destination": "Client_Data/resources.resource",
+      "source": "StandaloneLinux64/Client_Data/resources.resource"
+    },
+    {
+      "destination": "Client_Data/sharedassets0.assets",
+      "source": "StandaloneLinux64/Client_Data/sharedassets0.assets"
+    },
+    {
+      "destination": "Client_Data/sharedassets0.assets.resS",
+      "source": "StandaloneLinux64/Client_Data/sharedassets0.assets.resS"
+    },
+    {
+      "destination": "Client_Data/sharedassets0.resource",
+      "source": "StandaloneLinux64/Client_Data/sharedassets0.resource"
+    },
+    {
+      "destination": "Client_Data/sharedassets1.assets",
+      "source": "StandaloneLinux64/Client_Data/sharedassets1.assets"
+    },
+    {
+      "destination": "Client_Data/sharedassets1.assets.resS",
+      "source": "StandaloneLinux64/Client_Data/sharedassets1.assets.resS"
+    },
+    {
+      "destination": "Client_Data/sharedassets2.assets",
+      "source": "StandaloneLinux64/Client_Data/sharedassets2.assets"
+    },
+    {
+      "destination": "UnityPlayer.so",
+      "source": "StandaloneLinux64/UnityPlayer.so"
+    },
+    {
+      "destination": "Client.app/Contents/Frameworks/UnityPlayer.dylib",
+      "source": "StandaloneOSX/Client.app/Contents/Frameworks/UnityPlayer.dylib"
+    },
+    {
+      "destination": "Client.app/Contents/Frameworks/libMonoPosixHelper.dylib",
+      "source": "StandaloneOSX/Client.app/Contents/Frameworks/libMonoPosixHelper.dylib"
+    },
+    {
+      "destination": "Client.app/Contents/Frameworks/libmono-native.dylib",
+      "source": "StandaloneOSX/Client.app/Contents/Frameworks/libmono-native.dylib"
+    },
+    {
+      "destination": "Client.app/Contents/Frameworks/libmonobdwgc-2.0.dylib",
+      "source": "StandaloneOSX/Client.app/Contents/Frameworks/libmonobdwgc-2.0.dylib"
+    },
+    {
+      "destination": "Client.app/Contents/Info.plist",
+      "source": "StandaloneOSX/Client.app/Contents/Info.plist"
+    },
+    {
+      "destination": "Client.app/Contents/MacOS/NovelCraft-Client",
+      "source": "StandaloneOSX/Client.app/Contents/MacOS/NovelCraft-Client"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/config",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/config"
+    },
+    {
+      "destination": "Client.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml",
+      "source": "StandaloneOSX/Client.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/Mono.Security.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/Mono.Security.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/Newtonsoft.Json.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/Newtonsoft.Json.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.Configuration.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.Configuration.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.Core.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.Core.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.Data.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.Data.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.Drawing.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.Drawing.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.IO.Compression.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.IO.Compression.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.Net.Http.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.Net.Http.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.Numerics.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.Numerics.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.Security.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.Security.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.Transactions.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.Transactions.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.Xml.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.Xml.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/System.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/System.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/Unity.Timeline.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/Unity.Timeline.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Core.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Core.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Flow.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/Unity.VisualScripting.State.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/Unity.VisualScripting.State.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsNativeModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/UnityEngine.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/UnityEngine.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/mscorlib.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/mscorlib.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Managed/netstandard.dll",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Managed/netstandard.dll"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/Resources/unity_builtin_extra",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/Resources/unity_builtin_extra"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/ScriptingAssemblies.json",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/ScriptingAssemblies.json"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/StreamingAssets/external_servers.json",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/StreamingAssets/external_servers.json"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/app.info",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/app.info"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/boot.config",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/boot.config"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/globalgamemanagers",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/globalgamemanagers"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/globalgamemanagers.assets",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/globalgamemanagers.assets"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/level0",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/level0"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/level0.resS",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/level0.resS"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/level1",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/level1"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/level1.resS",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/level1.resS"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/level2",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/level2"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/level2.resS",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/level2.resS"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/resources.assets",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/resources.assets"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/resources.assets.resS",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/resources.assets.resS"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/resources.resource",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/resources.resource"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/sharedassets0.assets",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/sharedassets0.assets"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/sharedassets0.assets.resS",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/sharedassets0.assets.resS"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/sharedassets0.resource",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/sharedassets0.resource"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/sharedassets1.assets",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/sharedassets1.assets"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/sharedassets1.assets.resS",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/sharedassets1.assets.resS"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/Data/sharedassets2.assets",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/Data/sharedassets2.assets"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/DefaultPreferences.plist",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/DefaultPreferences.plist"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/MainMenu.nib/designable.nib",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/MainMenu.nib/designable.nib"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/MainMenu.nib/keyedobjects.nib",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/MainMenu.nib/keyedobjects.nib"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/PlayerIcon.icns",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/PlayerIcon.icns"
+    },
+    {
+      "destination": "Client.app/Contents/Resources/unity default resources",
+      "source": "StandaloneOSX/Client.app/Contents/Resources/unity default resources"
+    },
+    {
+      "destination": "Client.app/Contents/_CodeSignature/CodeResources",
+      "source": "StandaloneOSX/Client.app/Contents/_CodeSignature/CodeResources"
+    },
+    {
+      "destination": "Client.exe",
+      "source": "StandaloneWindows64/Client.exe"
+    },
+    {
+      "destination": "Client_Data/Managed/Assembly-CSharp.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/Assembly-CSharp.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Mono.Security.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/Mono.Security.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Newtonsoft.Json.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/Newtonsoft.Json.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.ComponentModel.Composition.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.ComponentModel.Composition.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Configuration.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.Configuration.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Core.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.Core.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Data.DataSetExtensions.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.Data.DataSetExtensions.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Data.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.Data.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Drawing.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.Drawing.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.EnterpriseServices.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.EnterpriseServices.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.IO.Compression.FileSystem.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.IO.Compression.FileSystem.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.IO.Compression.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.IO.Compression.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Net.Http.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.Net.Http.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Numerics.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.Numerics.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Runtime.Serialization.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.Runtime.Serialization.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Security.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.Security.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.ServiceModel.Internals.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.ServiceModel.Internals.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Transactions.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.Transactions.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Xml.Linq.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.Xml.Linq.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.Xml.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.Xml.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/System.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/System.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Unity.TextMeshPro.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/Unity.TextMeshPro.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Unity.Timeline.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/Unity.Timeline.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Unity.VisualScripting.Core.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/Unity.VisualScripting.Core.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Unity.VisualScripting.Flow.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/Unity.VisualScripting.State.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/Unity.VisualScripting.State.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.AIModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.AIModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ARModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.ARModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.AccessibilityModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.AccessibilityModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.AndroidJNIModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.AnimationModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.AnimationModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.AssetBundleModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.AudioModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.AudioModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ClothModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.ClothModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ClusterInputModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.ClusterInputModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.ClusterRendererModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.CoreModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.CoreModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.CrashReportingModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.CrashReportingModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.DSPGraphModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.DSPGraphModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.DirectorModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.DirectorModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.GIModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.GIModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.GameCenterModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.GameCenterModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.GridModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.GridModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.HotReloadModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.HotReloadModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.IMGUIModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.IMGUIModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ImageConversionModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.ImageConversionModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.InputLegacyModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.InputModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.InputModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.JSONSerializeModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.LocalizationModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.LocalizationModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.NVIDIAModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.NVIDIAModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.ParticleSystemModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.Physics2DModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.Physics2DModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.PhysicsModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.PhysicsModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ProfilerModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.ProfilerModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.SharedInternalsModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.SpriteMaskModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.SpriteShapeModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.StreamingModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.StreamingModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.SubstanceModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.SubstanceModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.SubsystemsModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.TLSModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.TLSModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.TerrainModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.TerrainModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.TextRenderingModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.TilemapModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.TilemapModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UI.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UI.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UIElementsModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UIElementsModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UIElementsNativeModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UIModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UIModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UNETModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UNETModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UmbraModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UmbraModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityConnectModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UnityConnectModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityCurlModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UnityCurlModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.VFXModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.VFXModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.VRModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.VRModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.VehiclesModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.VehiclesModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.VideoModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.VideoModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.WindModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.WindModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.XRModule.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.XRModule.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/UnityEngine.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/UnityEngine.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/mscorlib.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/mscorlib.dll"
+    },
+    {
+      "destination": "Client_Data/Managed/netstandard.dll",
+      "source": "StandaloneWindows64/Client_Data/Managed/netstandard.dll"
+    },
+    {
+      "destination": "Client_Data/Resources/unity default resources",
+      "source": "StandaloneWindows64/Client_Data/Resources/unity default resources"
+    },
+    {
+      "destination": "Client_Data/Resources/unity_builtin_extra",
+      "source": "StandaloneWindows64/Client_Data/Resources/unity_builtin_extra"
+    },
+    {
+      "destination": "Client_Data/RuntimeInitializeOnLoads.json",
+      "source": "StandaloneWindows64/Client_Data/RuntimeInitializeOnLoads.json"
+    },
+    {
+      "destination": "Client_Data/ScriptingAssemblies.json",
+      "source": "StandaloneWindows64/Client_Data/ScriptingAssemblies.json"
+    },
+    {
+      "destination": "Client_Data/StreamingAssets/external_servers.json",
+      "source": "StandaloneWindows64/Client_Data/StreamingAssets/external_servers.json"
+    },
+    {
+      "destination": "Client_Data/app.info",
+      "source": "StandaloneWindows64/Client_Data/app.info"
+    },
+    {
+      "destination": "Client_Data/boot.config",
+      "source": "StandaloneWindows64/Client_Data/boot.config"
+    },
+    {
+      "destination": "Client_Data/globalgamemanagers",
+      "source": "StandaloneWindows64/Client_Data/globalgamemanagers"
+    },
+    {
+      "destination": "Client_Data/globalgamemanagers.assets",
+      "source": "StandaloneWindows64/Client_Data/globalgamemanagers.assets"
+    },
+    {
+      "destination": "Client_Data/level0",
+      "source": "StandaloneWindows64/Client_Data/level0"
+    },
+    {
+      "destination": "Client_Data/level0.resS",
+      "source": "StandaloneWindows64/Client_Data/level0.resS"
+    },
+    {
+      "destination": "Client_Data/level1",
+      "source": "StandaloneWindows64/Client_Data/level1"
+    },
+    {
+      "destination": "Client_Data/level1.resS",
+      "source": "StandaloneWindows64/Client_Data/level1.resS"
+    },
+    {
+      "destination": "Client_Data/level2",
+      "source": "StandaloneWindows64/Client_Data/level2"
+    },
+    {
+      "destination": "Client_Data/level2.resS",
+      "source": "StandaloneWindows64/Client_Data/level2.resS"
+    },
+    {
+      "destination": "Client_Data/resources.assets",
+      "source": "StandaloneWindows64/Client_Data/resources.assets"
+    },
+    {
+      "destination": "Client_Data/resources.assets.resS",
+      "source": "StandaloneWindows64/Client_Data/resources.assets.resS"
+    },
+    {
+      "destination": "Client_Data/resources.resource",
+      "source": "StandaloneWindows64/Client_Data/resources.resource"
+    },
+    {
+      "destination": "Client_Data/sharedassets0.assets",
+      "source": "StandaloneWindows64/Client_Data/sharedassets0.assets"
+    },
+    {
+      "destination": "Client_Data/sharedassets0.assets.resS",
+      "source": "StandaloneWindows64/Client_Data/sharedassets0.assets.resS"
+    },
+    {
+      "destination": "Client_Data/sharedassets0.resource",
+      "source": "StandaloneWindows64/Client_Data/sharedassets0.resource"
+    },
+    {
+      "destination": "Client_Data/sharedassets1.assets",
+      "source": "StandaloneWindows64/Client_Data/sharedassets1.assets"
+    },
+    {
+      "destination": "Client_Data/sharedassets1.assets.resS",
+      "source": "StandaloneWindows64/Client_Data/sharedassets1.assets.resS"
+    },
+    {
+      "destination": "Client_Data/sharedassets2.assets",
+      "source": "StandaloneWindows64/Client_Data/sharedassets2.assets"
+    },
+    {
+      "destination": "MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+      "source": "StandaloneWindows64/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+    },
+    {
+      "destination": "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+      "source": "StandaloneWindows64/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/2.0/machine.config",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/2.0/machine.config"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/2.0/settings.map",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/2.0/settings.map"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/2.0/web.config",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/2.0/web.config"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/4.0/machine.config",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/4.0/machine.config"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/4.0/settings.map",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/4.0/settings.map"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/4.0/web.config",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/4.0/web.config"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/4.5/machine.config",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/4.5/machine.config"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/4.5/settings.map",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/4.5/settings.map"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/4.5/web.config",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/4.5/web.config"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/browscap.ini",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/browscap.ini"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/config",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/config"
+    },
+    {
+      "destination": "MonoBleedingEdge/etc/mono/mconfig/config.xml",
+      "source": "StandaloneWindows64/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+    },
+    {
+      "destination": "UnityCrashHandler64.exe",
+      "source": "StandaloneWindows64/UnityCrashHandler64.exe"
+    },
+    {
+      "destination": "UnityPlayer.dll",
+      "source": "StandaloneWindows64/UnityPlayer.dll"
+    }
+  ],
+  "possession": [],
+  "tool": {
+    "description": "",
+    "entrypoints": [],
+    "name": ""
+  },
+  "tooth": "github.com/novelcraft/client-tooth",
+  "version": "0.2.0"
+}
